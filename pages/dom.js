@@ -18,7 +18,7 @@ const DOM = ({ developer }) => {
 
 export const getServerSideProps = async () => {
     const apiResponse = await fetch(
-        'https://my-json-server.typicode.com/nabendu82/news-next/devOfMonth',
+        'https://my-json-server.typicode.com/nabendu82/next-news/devOfMonth',
     );
     const developer = await apiResponse.json();
 
